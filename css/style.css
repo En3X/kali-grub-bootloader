@@ -1,0 +1,61 @@
+@font-face{
+    font-family: "Titillium Web";
+    src: url(../font/TitilliumWeb-ExtraLight.ttf);
+}
+body{
+    margin: 0;
+    height: 100%;
+    background: url(../img/kali.png);
+    background-size: cover;
+}
+
+.glass{
+    background-attachment: fixed;
+    width: 40%;
+    height: 45%;
+    position: relative;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius:10px;
+    filter: blur(50%);
+}
+
+
+.content:first-of-type{
+    margin: none;
+}
+img#logo{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    user-select: none;
+}
+.content{
+    user-select: none;
+    padding: 15px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    margin-top: 2px;
+    font-family: 'Titillium Web', sans-serif;    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.content:hover{
+    background-color: rgba(255,255,255,0.1);
+}
+
+.booting{
+    user-select: none;
+    font-family: 'Titillium Web', sans-serif;    
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 20%;
+}
