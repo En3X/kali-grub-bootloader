@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="./img/kali-fav.png" type="image/x-icon">
+        <title>Kali - Login</title>
+        <link rel="stylesheet" href="./css/kalilogin.css">
+    </head>
+    <body>
+        <div class="banner">
+            <div class="left">
+                kali
+            </div>
+            <div class="right">
+                <span>
+                    en_US.utf8 
+                </span>
+                <span class="dayDate">
+                    <span id="day"></span> <span id="month"></span>, 
+                    <span id="hour"></span><span id="divider"> : </span><span id="minute"></span>
+                </span>
+                <span onclick="history.back()">
+                    <img title="Shutdown Computer" src="./img/kali-power.png" id="powerButton" alt="">
+                </span>
+            </div>
+        </div>
+
+        <div class="loginSection">
+            <div class="formSection">
+                <div class="logoSection">
+                    <img draggable="false" src="./img/logo.png" alt="">
+                </div>
+                <div class="inputSection">
+                    <input autocomplete="off" type="text" id="username" placeholder="Enter username">
+                    <input type="password" name="" id="password" placeholder="Enter password">
+                </div>
+            </div>
+            <div class="buttonSection">
+                <button onclick="history.back()">Cancel</button>
+                <button>Log In</button>
+            </div>
+        </div>
+    </body>
+    <script src="./js/kaliLogin.js"></script>
+</html>

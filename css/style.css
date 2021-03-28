@@ -3,13 +3,17 @@
     src: url(../font/TitilliumWeb-ExtraLight.ttf);
 }
 body{
+    overflow: hidden;
+
     margin: 0;
     height: 100%;
     background: url(../img/kali.png);
     background-size: cover;
+    cursor: url(../cursor/cursor_32x32.png),auto;
 }
 
 .glass{
+    
     background-attachment: fixed;
     width: 40%;
     height: 45%;
@@ -35,12 +39,11 @@ img#logo{
 }
 .content{
     user-select: none;
-    padding: 15px;
-    letter-spacing: 1.5px;
-    cursor: pointer;
+    padding: 10px;
+    letter-spacing: 1px;
     margin-top: 2px;
     font-family: 'Titillium Web', sans-serif;    color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 10px;
 }
 
@@ -52,7 +55,6 @@ img#logo{
     user-select: none;
     font-family: 'Titillium Web', sans-serif;    
     color: #fff;
-    cursor: pointer;
     font-size: 15px;
     position: absolute;
     transform: translateX(-50%);

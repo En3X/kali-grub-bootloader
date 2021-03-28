@@ -1,0 +1,121 @@
+@font-face{
+    font-family: "Titillium Web";
+    src: url(../font/TitilliumWeb-ExtraLight.ttf);
+}
+body{
+    font-family: 'Titillium Web', sans-serif;    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background: url(../img/kali.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: url(../cursor/kali-normal.png),auto;
+}
+
+.banner{
+    font-weight: 200;
+    width: auto;
+    height: auto;
+    background: rgba(35,53,63,0.9);
+    color: #fff;
+    padding: 1px 5px 1px 10px;
+    display: flex;
+    justify-content:space-between;
+    place-items: center;
+}
+.banner>.left{
+    letter-spacing: 1.2px;
+}
+
+.banner>.right{
+    font-size: 14px;
+}
+.dayDate{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+img#powerButton{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 12px;
+}
+
+.loginSection{
+    position: absolute;
+    background: rgba(35,53,63,0.9);
+    border-radius: 5px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+}
+.formSection{
+    padding: 20px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logoSection{
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+.logoSection>img{
+    width: 80px;
+}
+.inputSection{
+    width: 95%;
+    padding: 10 20px 0px 0px;
+}
+.inputSection>input{
+    width: 95%;
+    background-color:rgba(34,34,34,0.5);
+    border-radius: 7px;
+    padding: 10px 3px 10px 7px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 3px #222;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.inputSection input:focus{
+    outline:none;
+}
+
+.buttonSection{
+    cursor: url(../cursor/kali-normal.png),auto;
+
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #23252E;
+    padding: 25px;
+}
+
+.buttonSection>button{
+    padding: 5px 15px;
+    box-shadow: 1px 1px 7px #444444;
+}
+.buttonSection>button:first-child{
+    background-color: #1A1B22;
+    border: 1px solid #1A1B22;
+    border-radius: 2px;
+    color: #cccccc;
+}
+.buttonSection>button:last-child{
+    background-color: #2777FF;
+    border: 1px solid #2777FF;
+    border-radius: 2px;
+    color: #cccccc;
+}
+.buttonSection>button:hover,button:focus{
+    cursor: url(../cursor/kali-normal.png),auto;
+}
